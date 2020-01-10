@@ -58,7 +58,7 @@ make install
 docker-composer exec -u www-data node yarn watch
 ```
 
-### Service
+### Accesses
 
 | Service   | Url                          |
 | --------- | ---------------------------- |
