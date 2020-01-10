@@ -57,3 +57,11 @@ make install
 ```
 docker-composer exec -u www-data node yarn watch
 ```
+
+### Service
+
+| Service   | Url                          |
+| --------- | ---------------------------- |
+| Apache    |  http://localhost            |
+| PMA       |  http://localhost:8081       |
+| Mailhog   |  http://localhost:8025       |
