@@ -8,7 +8,7 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: password
     volumes:
-      - ./docker/mysql:/var/lib/mysql:rw
+      - ./docker/mysql:/var/lib/mysql:rw,delegated
     ports:
       - 3306:3306
 
